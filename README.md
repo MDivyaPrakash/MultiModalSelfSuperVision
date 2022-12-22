@@ -10,37 +10,70 @@ Memes have become an online phenomenon and have grown in circulation with increa
 
 ## Methodolgies Explored
 
-- CLIP <https://arxiv.org/pdf/2103.00020.pdf>
+- CLIP 
 ### Model Structure
-- DINO <https://arxiv.org/pdf/2104.14294.pdf>
+<img src="images/CLIPImplementation.png" alt="Alt text" title="Optional title">
+### Loss Function
+<img src="images/CLIP_Pseudo.png" alt="Alt text" title="Optional title">
+
+Paper Link : <https://arxiv.org/pdf/2103.00020.pdf>
+
+- DINO 
 ### Model Structure
-- CASS <https://arxiv.org/pdf/2206.04170.pdf>
+<img src="images/dino-self.jpeg" alt="Alt text" title="Optional title">
+
+Paper Link : <https://arxiv.org/pdf/2104.14294.pdf>
+
+- CASS
 ### Model Structure
+<img src="images/CASS.jpeg" alt="Alt text" title="Optional title">
+
+Paper Link : <https://arxiv.org/pdf/2206.04170.pdf>
+
+## Results
+### Metrics used for Evaluation:
+For our experiments, we have chosen two evaluation met- rics, namely AUROC and Accuracy.
+
+### Results obtained while comparing comparing the results of supervised- only ResNet50 with DINO and CASS unimodally trained ResNet50, for two different input sizes - 224 and 384. We observed that CASS-trained ResNet50 outperformed super- vised and DINO-trained ResNet50 for both image sizes. And overall we saw an improvement of 2% and 3% over super- vised ResNet50 for image sizes 224 and 384 respectively.
+
+| Model | AUROC | Accuracy(%) |
+| :---:         |     :---:      | :---:      |
+| ResNet-50 224  | 0.5157±0.081   |  0.5175±0.044   |
+| ResNet-50 224 (CASS)  | 0.5398±0.091    |0.5435±0.031    | 
+| ResNet-50 224 (DINO)   |  0.5129±0.009    | 0.5267±0.055   | 
+| ResNet-50 384  | 0.5116±0.076|   0.511±0.016    |
+| ResNet-50 384 (CASS)|  0.5405±0.045    |0.5475±0.015   | 
+| ResNet-50 384 (DINO) |  0.532±0.033    | 0.543±0.056   | 
+
+### Results obtained while comparing the results of supervised-only ViT Base 16 with DINO and CASS unimodally trained ViT Base 16, for two different input sizes - 224 and 384. Again we see that CASS trined ViT Base 16 improves upon supervised and DINO-trained ViT Base 16 by a smaller margin for image size 224 but by around 3% on AUROC for image size 384.
+
+| Model | AUROC | Accuracy(%) |
+| :---:         |     :---:      | :---:      |
+| ViT Base 16 224 | 0.51293±0.043  |  0.5235±0.065   |
+| ViT Base 16 (CASS) | 0.5196±0.051   |0.5545±0.01    | 
+| ViT Base 16(DINO)   |  0.513±0.077   | 0.5195±0.014   | 
+| ViT Base 16 384 |0.5±0.022|   0.545±0.087   |
+| ViT Base 16 384 (CASS)|  0.53386±0.009   |0.59±0.017   | 
+| ViT Base 16 384 (DINO) | 0.5002±0.011   |0.624±0.071 | 
 
 
-### Results
-| Architecture | N | Bi | Dropout | Acc(%) |
-| :---:         |     :---:      |          :---: |    :---:      |     :---:     |
-| 1  |  4     |   [2,1,1,1]    | -   |  94.17%   |
-| 2  |  3     | [3,3,3]      | 0.2 (Conv layers + hidden layer)  |  94.33%    | 
+
+### Results obtained while comparing our novel CASS MM (Multi-Modal) self-supervised technique against CLIP for input image size 384. We picked image size 384 from above results we observed that input size 384 performed better than 224.
+
+| Model | AUROC | Accuracy(%) |
+| :---:         |     :---:      | :---:      |
+| CLIP (ViTB/16)  | 0.5761±0.011   |  0.5915±0.031    |
+| CASS MM (ViTB/16)  |  0.5518±0.05     | 0.6335±0.012     | 
+| CASS MM (ResNet50)  |  0.5518±0.05     | 0.5817±0.087     | 
 
 
-### Experimentation
-A snapshot of experiments carried out. Detailed information can be found below:
-<img src="Experiments/ExperimentImage1.jpeg" alt="Alt text" title="Optional title">
-Please find the below link for the experimentations done during this project.
 
-
-# Respository Details
-The BestArchitecture folder contains the model code used to setup and train the architecture along with the necessary plots. Each Model folder contains the following details
+## Respository Details
+The BestArchitecture 
 - Python Notebook having the results and plots for each model configuration
 - main.py file , which has to used to execute the model
 - resnetModel.py file, which defines the base architecture of the modified ResNet model
-- PlotConfusionMatrix.py file for the plotting the confusion matrix , Train vs Validation plots
-- Confusion_Matrix folder for storing the necessary variable created during the straining and using it for plotting graphs
-- checkpoint folder stored the best model obtained during the traininf
-- plots contains the plot generated for the model specified
-- Experiments folder contains the other implemenations, we tried out, like Early Stopping  , changing channels etc.
+
 ### Code References: 
-https://github.com/kuangliu/pytorch-cifar
+https://github.com/moein-shariatnia/OpenAI-CLIP
 
