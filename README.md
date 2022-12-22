@@ -75,7 +75,7 @@ Below diagram, shows the loss vs epochs on training set for CASS Multimodal trai
 ## Respository Details
 Below are the details of the files in this repository.
 
-- For code the used in Pre-training , please refere to the Python Notebooks in the below folders:
+- For the code used in Pre-training, please refer to the Python Notebooks in the below folders:
 ```bash
 └── CASS // Implementation of CASS with Unimodal configuration
 └── CASS_MM  // Implementation of CASS with Multimodal configuration
@@ -84,7 +84,7 @@ Below are the details of the files in this repository.
 ```
 
         
-- For code the used in Pre-training , please refer to the Python Notebook in the below folder:
+- For code the used in Finetuning, please refer to the Python Notebook in the below folder:
 ```bash
 └── Finetuning 
 ```
