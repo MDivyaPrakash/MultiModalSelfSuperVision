@@ -6,5 +6,11 @@ Memes have become an online phenomenon and have grown in circulation with increa
 
 So taking the above problem as the inception point, in this work, we have implemented two unimodal and two multimodal self-supervised approaches. In addition, we extend the implementation of CASS to multiple modalities.
 
+## Methodolgies Explored
+-CLIP
+-DINO
+-CASS
+
 ### Code References: 
-https://github.com/kuangliu/pytorch-cifar
+Paper References:
+
