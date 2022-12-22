@@ -71,13 +71,19 @@ Results obtained while comparing our novel CASS MM (Multi-Modal) self-supervised
 Below are the details of the files in this repository.
 
 - For code the used in Pre-training , please refere to the Python Notebooks in the below folders:
-        └── CASS // Implementation of CASS in unimodal configuration
-        └── CASS_MM  // Implementation of CASS in Multimodal configuration
-        └── CLIP // Implementation of CLIP
-        └── DINO  // Implementation of DINO
+```bash
+└── CASS // Implementation of CASS in unimodal configuration
+└── CASS_MM  // Implementation of CASS in Multimodal configuration
+└── CLIP // Implementation of CLIP
+└── DINO  // Implementation of DINO
+```
+
         
 - For code the used in Pre-training , please refer to the Python Notebook in the below folder:
+```bash
 └── Finetuning 
+```
+
 
 ### Code References: 
 https://github.com/moein-shariatnia/OpenAI-CLIP
