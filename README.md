@@ -1,4 +1,6 @@
-#Expanding Cross-Architectural Self-supervision for Multi-modal learning
+# Expanding Cross-Architectural Self-supervision for Multi-modal learning
+This Repository contains the implementation of Final Project DL.
+
 
 ## Abstract
 Memes have become an online phenomenon and have grown
@@ -24,11 +26,16 @@ ception point, in this report, we have implemented two uni-
 modal and two multimodal self-supervised approaches. In ad-
 dition, we extend the implementation of CASS to multiple
 modalities and suggest a novel multimodal self-supervised
-technique CASS-MM (CASS- Multi-modal).
+technique CASS-MM (CASS-Multi-modal).
+
+## This repository contains the following:
+-
+-
 
 ## Methodolgies Explored
--CLIP
--DINO
--CASS
+- CLIP <https://arxiv.org/pdf/2103.00020.pdf>
+- DINO <https://arxiv.org/pdf/2104.14294.pdf>
+- CASS <https://arxiv.org/pdf/2206.04170.pdf>
+
 
 
