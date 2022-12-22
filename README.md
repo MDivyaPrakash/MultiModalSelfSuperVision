@@ -1,5 +1,5 @@
 # Expanding Cross-Architectural Self-supervision for Multi-modal learning
-This Repository contains the implementation of Final Project DL.
+This Repository contains the implementation of Final Project as part of the Deep Learning Course , NYU.
 
 
 ## Overview
@@ -72,8 +72,8 @@ Below are the details of the files in this repository.
 
 - For code the used in Pre-training , please refere to the Python Notebooks in the below folders:
 ```bash
-└── CASS // Implementation of CASS in unimodal configuration
-└── CASS_MM  // Implementation of CASS in Multimodal configuration
+└── CASS // Implementation of CASS with Unimodal configuration
+└── CASS_MM  // Implementation of CASS with Multimodal configuration
 └── CLIP // Implementation of CLIP
 └── DINO  // Implementation of DINO
 ```
@@ -87,4 +87,3 @@ Below are the details of the files in this repository.
 
 ### Code References: 
 https://github.com/moein-shariatnia/OpenAI-CLIP
-
