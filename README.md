@@ -2,7 +2,7 @@
 This Repository contains the implementation of Final Project DL.
 
 
-## Abstract
+## Overview
 Memes have become an online phenomenon and have grown
 in circulation with increased accessibility to the internet and
 editorial applications. This floods the internet with many
@@ -14,7 +14,7 @@ ditional deep learning architectures and techniques rely on
 uni-modality i.e., they only focus on images or textual data.
 But as mentioned earlier, sometimes memes use a combi-
 nation of textual and visual cues for hate speech; this calls
-for deep learning techniques to be multi-modal in their ap-
+for deep learning techniques to be multimodal in their ap-
 proach. Furthermore, human intelligence also relies on mul-
 tiple modalities. Another bottleneck is in the form of the
 availability of annotations. As supervised techniques rely on
