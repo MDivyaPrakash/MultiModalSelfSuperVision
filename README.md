@@ -1,5 +1,4 @@
-# Understanding multi-modal self-supervision and out of distribution performance
-Expanding Cross-Architectural Self-supervision for Multi-modal learning
+#Expanding Cross-Architectural Self-supervision for Multi-modal learning
 
 ## Abstract
 Memes have become an online phenomenon and have grown
@@ -10,7 +9,7 @@ plausible solution is to use AI to determine whether the
 memes are harmful. But sometimes, these memes subtly com-
 bine visual and textual cues to point to hate speech. Tra-
 ditional deep learning architectures and techniques rely on
-uni-modality i.e.; they only focus on images or textual data.
+uni-modality i.e., they only focus on images or textual data.
 But as mentioned earlier, sometimes memes use a combi-
 nation of textual and visual cues for hate speech; this calls
 for deep learning techniques to be multi-modal in their ap-
