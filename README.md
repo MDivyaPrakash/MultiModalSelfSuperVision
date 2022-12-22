@@ -13,6 +13,7 @@ Memes have become an online phenomenon and have grown in circulation with increa
 <img src="images/CLIPImplementation.png" alt="Alt text" title="Optional title">
 
 Numpy-like pseudocode for the core of an imple- mentation of CLIP.
+
 <img src="images/CLIP_Pseudo.png" alt="Alt text" title="Optional title">
 
 Reference Paper Link : <https://arxiv.org/pdf/2103.00020.pdf>
@@ -68,7 +69,7 @@ Results obtained while comparing our novel CASS MM (Multi-Modal) self-supervised
 | CASS MM (ResNet50)  |  0.5518±0.05     | 0.5817±0.087     | 
 
 ### Plots and Graphs
-In the below diagram, we show loss on training set for CASS Multimodal trained CNN and Transformer for 25 epochs.
+Below diagram, shows the loss vs epochs on training set for CASS Multimodal trained CNN and Transformer for 25 epochs.
 <img src="images/Loss_Curves.png" alt="Alt text" title="Optional title">
 
 ## Respository Details
