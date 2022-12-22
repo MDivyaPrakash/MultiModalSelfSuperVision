@@ -11,22 +11,23 @@ Memes have become an online phenomenon and have grown in circulation with increa
 ### CLIP 
 #### Model Structure
 <img src="images/CLIPImplementation.png" alt="Alt text" title="Optional title">
-#### Loss Function
+
+Numpy-like pseudocode for the core of an imple- mentation of CLIP.
 <img src="images/CLIP_Pseudo.png" alt="Alt text" title="Optional title">
 
-Paper Link : <https://arxiv.org/pdf/2103.00020.pdf>
+Reference Paper Link : <https://arxiv.org/pdf/2103.00020.pdf>
 
 ### DINO 
 #### Model Structure
 <img src="images/dino-self.jpeg" alt="Alt text" title="Optional title">
 
-Paper Link : <https://arxiv.org/pdf/2104.14294.pdf>
+Reference Paper Link :  <https://arxiv.org/pdf/2104.14294.pdf>
 
 ### CASS
 #### Model Structure
 <img src="images/CASS.jpeg" alt="Alt text" title="Optional title">
 
-Paper Link : <https://arxiv.org/pdf/2206.04170.pdf>
+Reference Paper Link :  <https://arxiv.org/pdf/2206.04170.pdf>
 
 ## Results
 ### Metrics used for Evaluation:
@@ -66,6 +67,9 @@ Results obtained while comparing our novel CASS MM (Multi-Modal) self-supervised
 | CASS MM (ViTB/16)  |  0.5518±0.05     | 0.6335±0.012     | 
 | CASS MM (ResNet50)  |  0.5518±0.05     | 0.5817±0.087     | 
 
+### Plots and Graphs
+In the below diagram, we show loss on training set for CASS Multimodal trained CNN and Transformer for 25 epochs.
+<img src="images/Loss_Curves.png" alt="Alt text" title="Optional title">
 
 ## Respository Details
 Below are the details of the files in this repository.
